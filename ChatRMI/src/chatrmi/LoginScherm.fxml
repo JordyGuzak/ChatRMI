@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatrmi.ChatRMI">
+   <children>
+      <TextField fx:id="tfUserName" layoutX="235.0" layoutY="175.0" />
+      <PasswordField fx:id="tfPassword" layoutX="235.0" layoutY="213.0" />
+      <Label fx:id="lblUserName" layoutX="167.0" layoutY="179.0" text="User name:" />
+      <Label fx:id="lblPassword" layoutX="173.0" layoutY="217.0" text="Password:" />
+      <Label fx:id="lblChatRMI" layoutX="229.0" layoutY="46.0" text="ChatRMI" textAlignment="CENTER">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLogin" layoutX="166.0" layoutY="126.0" text="Log in">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLogin" layoutX="332.0" layoutY="248.0" mnemonicParsing="false" onAction="#Login" text="Log in" />
+   </children>
+</Pane>

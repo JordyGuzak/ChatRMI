@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ChatRMI_Server.jnlp">
+  <information>
+    <title>ChatRMI_Server</title>
+    <vendor>jordy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ChatRMI_Server.jar" size="6893" download="eager" />
+    <jar href="lib\ChatRMIImpl.jar" size="8528" download="eager" />
+    <jar href="lib\ChatRMI_Interfaces.jar" size="3080" download="eager" />
+    <jar href="lib\FontysObserver.jar" size="6463" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ChatRMI_Server" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="chatrmi.ChatRMIServer"  name="ChatRMI_Server" />
+  <update check="always"/>
+</jnlp>
